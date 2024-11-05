@@ -8,6 +8,8 @@ console.log(Fun("BSSE"));
 
 // optional parameter
 const Fun2 = (degree: string, rollno?: number): string => {
-  return `i am studying in ${degree}`;
+  if (rollno) {
+    return `i am studying in ${degree} & my roll number is ${rollno}`;
+  } else return `i am studying in ${degree}`;
 };
 console.log(Fun("BSSE"));
