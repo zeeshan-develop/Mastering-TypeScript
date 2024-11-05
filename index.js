@@ -1,3 +1,4 @@
+"use strict";
 console.log("I am learning TypecSript");
 var age = 21;
 age = 34;
