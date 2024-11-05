@@ -15,3 +15,15 @@ if (typeof num2 === "number") {
 else if (typeof num2 === "boolean") {
     console.log(num2);
 }
+// another example of Unknow
+const fetchData = async () => {
+    const response = await fetch("https://api.example.com/data");
+    const data = await response.json();
+    return data;
+};
+const processData = async () => {
+    const response = await fetchData();
+    if (typeof response === "object") {
+        console.log(response);
+    }
+};
