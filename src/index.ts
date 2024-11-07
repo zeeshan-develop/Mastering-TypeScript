@@ -1,4 +1,3 @@
-console.log("I am learning TypecSript");
 var age: number = 21;
 age = 34;
 console.log(age);
